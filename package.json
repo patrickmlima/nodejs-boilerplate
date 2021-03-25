@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for NodeJS projects",
+  "main": "src/index.js",
+  "scripts": {
+    "posttest": "eslint --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickmlima/nodejs-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "javascript"
+  ],
+  "author": "Patrick Lima <patrickm.lima1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickmlima/nodejs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/patrickmlima/nodejs-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
